@@ -1,0 +1,6 @@
+luku_1 = int(input("Luku 1: "))
+luku_2 = int(input("Luku 2: "))
+luku_3 = int(input("Luku 3: "))
+print("Summa: " + str(luku_1 + luku_2 + luku_3))
+print("Tulo: " + str(luku_1 * luku_2 * luku_3))
+print("Keskiarvo: " + str((luku_1 + luku_2 + luku_3) // 3))
