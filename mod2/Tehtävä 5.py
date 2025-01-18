@@ -1,6 +1,4 @@
 LUOTI = 13.3
-#naula = 32 * LUOTI
-#leiviskä = 20 * 32 * LUOTI
 leiviskät = float(input("Anna leiviskät: "))
 naulat = float(input("Anna naulat: "))
 luodit = float(input("Anna luodit: "))
