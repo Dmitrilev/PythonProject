@@ -28,6 +28,7 @@ while not voittaja:
         if auto.kuljettu_matka >=1000:
             voittaja = True
             break
+
 taulu = []
 for auto in autot:
     taulu.append([auto.rekisteritunnus, auto.huippunopeus, auto.tämänhetkinen_nopeus, auto.kuljettu_matka])
