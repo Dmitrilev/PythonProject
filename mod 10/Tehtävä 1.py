@@ -20,7 +20,7 @@ class Hissi:
             while self.nykyinen_kerros != kohdekerros:
                 self.kerros_ylös()
                 print(f"Täällä hetkellä hissi on {self.nykyinen_kerros}:ssä kerroksessa")
-                print("Olet paikalla")
+            print("Olet paikalla")
             while self.nykyinen_kerros != self.alin_kerros:
                 self.kerros_alas()
                 print(f"Täällä hetkellä hissi on {self.nykyinen_kerros}:ssä kerroksessa")
